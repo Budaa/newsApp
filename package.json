@@ -9,11 +9,30 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "expo": "^31.0.2",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    "prop-types": "^15.6.2",
+    "ramda": "^0.26.0",
+    "react": "^16.5.1",
+    "react-native": "0.57.1",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "reselect": "^4.0.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+    "babel-preset-expo": "^5.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-react-native": "^2.3.2",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1"
+  },
+  "jest": {
+    "verbose": true,
+    "preset": "react-native"
   }
 }
